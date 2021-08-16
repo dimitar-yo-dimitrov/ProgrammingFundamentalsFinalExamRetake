@@ -20,10 +20,10 @@ namespace _03.thePianist_withClass
 
             for (int i = 0; i < n; i++)
             {
-                string[] date = Console.ReadLine()
+                string[] data = Console.ReadLine()
                     .Split("|", StringSplitOptions.RemoveEmptyEntries);
 
-                pieces.Add(date[0], new PieceInfo { Composer = date[1], Key = date[2] });
+                pieces.Add(data[0], new PieceInfo { Composer = data[1], Key = data[2] });
             }
 
             while (true)
